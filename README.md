@@ -1,8 +1,12 @@
-# THIS REPOSITORY IS NOT MAINTAINED
+# ng-dynamic-7
 
-# ng-dynamic
+## This project is a version with some corrections of the original project ng-dynamic, made by [lacolaco](https://github.com/lacolaco). We forked this project because the original creator does not update it anymore
 
-## Since Angular 4.0, AoT compiler cannot coexist with JiT compiler. If you want to use DynamicComponentModule, you cannot use AoT compilation.
+---
+
+[Original Package](https://www.npmjs.com/package/ng-dynamic)
+
+### Since Angular 4.0, AoT compiler cannot coexist with JiT compiler. If you want to use DynamicComponentModule, you cannot use AoT compilation.
 
 Dynamic Content Projection in Angular 2+ 
 
@@ -12,8 +16,6 @@ Dynamic Content Projection in Angular 2+
 ```
 $ npm install --save ng-dynamic
 ```
-
-**Live Demo**: [Plunker](https://plnkr.co/edit/uzcYiN?p=preview)
 
 ---
 
