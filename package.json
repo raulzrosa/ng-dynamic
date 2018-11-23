@@ -1,5 +1,5 @@
 {
-  "name": "ng-dynamic-7",
+  "name": "ngx-dynamic",
   "version": "3.1.0",
   "description": "dynamic contents projection in Angular",
   "main": "index.js",

@@ -1,4 +1,4 @@
-# ng-dynamic-7
+# ngx-dynamic
 
 ## This project is a version with some corrections of the original project ng-dynamic, made by [lacolaco](https://github.com/lacolaco). We forked this project because the original creator does not update it anymore
 
