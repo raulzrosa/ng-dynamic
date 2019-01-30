@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
     <textarea [(ngModel)]="content" rows="10" cols="50"></textarea>
   `,
 })
-export class DynamicHTMLDemoComponent {
+export class DynamicHTMLDemoComponent implements OnInit {
   content: string;
 
   ngOnInit() {
