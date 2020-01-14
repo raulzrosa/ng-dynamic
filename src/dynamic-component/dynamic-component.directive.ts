@@ -8,8 +8,8 @@ import {
   SimpleChanges,
   Type,
   ViewContainerRef,
-  ReflectiveInjector,
-  OnDestroy
+  OnDestroy,
+  Injector
 } from '@angular/core';
 
 import { DynamicComponentOptions } from './options';
@@ -93,7 +93,7 @@ export class DynamicComponentDirective implements OnDestroy {
     }
     this.cmpType = this.createComponentType();
     this.moduleType = this.createNgModuleType(this.cmpType);
-    const injector = ReflectiveInjector.fromResolvedProviders([], this.vcRef.parentInjector);
+    const injector =  Injector.create({providers: [], parent: this.vcRef.injector });
     this.compiler.compileModuleAndAllComponentsAsync<any>(this.moduleType)
       .then(factory => {
         let cmpFactory: any;
